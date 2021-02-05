@@ -1,5 +1,6 @@
-# Getting Started with Create React App
-This project creates a todo list for the day using React
+# React-todo-list
+This project creates a todo list for the day using React, currently trying to add a light theme on top of the existing dark theme.
+![Screenshot](appUX.png)
 
 
 ## Available Scripts
