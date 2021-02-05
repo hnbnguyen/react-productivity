@@ -81,7 +81,7 @@
     border-radius: 0.5em;
   }
   .complete-btn {
-    background: #7C9C94;
+    background: #7c9c94;
   }
   .todo-item {
     padding: 0rem 0.5rem;
@@ -136,7 +136,7 @@
     top: 0;
     right: 0;
     padding: 1rem;
-    background: #DECECA;
+    background: #dececa;
     cursor: pointer;
     pointer-events: none;
   }
