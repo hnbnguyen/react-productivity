@@ -5,8 +5,8 @@
   }
   body {
     /*background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);*/
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
   }
@@ -23,11 +23,11 @@
   }
   form input,
   form button {
-    padding: 0.5rem;
+    padding: 0.2rem;
     font-size: 2rem;
     border: none;
-    background: rgb(255, 255, 255);
-    border-radius:0.5em;
+    background: rgb(230,230,230);
+    border-radius:0.3em;
     font-family: "Poppins", sans-serif;
   }
   form button {
@@ -125,6 +125,7 @@
   /*7C9C94*/
   select {
     color: #000000;
+    background: rgb(230,230,230);
     cursor: pointer;
     width: 12rem;
   }
