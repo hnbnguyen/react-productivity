@@ -37,6 +37,13 @@
     <title>Today's Todo</title>
   </head>
   <body>
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -49,13 +56,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-    <script>
-      function addDarkmodeWidget() {
-        new Darkmode().showWidget();
-      }
-      window.addEventListener('load', addDarkmodeWidget);
-    </script>
   </body>
 </html>
