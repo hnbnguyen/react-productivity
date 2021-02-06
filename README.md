@@ -1,5 +1,5 @@
 # React-todo-list
-This project creates a todo list for the day using React, currently trying to add a light theme on top of the existing dark theme.
+This project creates a todo list for the day using React. Dark mode is implemented!
 ![Screenshot](darkmode.gif)
 
 
